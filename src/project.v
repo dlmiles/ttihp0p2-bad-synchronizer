@@ -60,7 +60,7 @@ module tt_um_dlmiles_bad_synchronizer (
       if ( 0 == rst_n )
           stage3[3:0] <= 4'd0;
       else
-          stage3[3:0] <= stage3[3:0];  
+          stage3[3:0] <= stage2[3:0];  
 
     
   // List all unused inputs to prevent warnings
